@@ -1,23 +1,23 @@
-#### Asterophryinae-biogeography ####
+# Asterophryinae-biogeography #
 This repository holds supplementary data of phylogenetic and biogeographic analyses included in a study on Asterophryinae (Anura: Microhylidae) biogeography on New Guinea.
 
-### Data ###
+## Data ##
 
-## Alignements ##
-# All specimens
+### Alignements #
+#### All specimens
 This folder contains alignements (.fasta) for each nuclear locus and the 16S rRNA fragment used for the species delimitation.
-# Per MOTU
+#### Per MOTU
 This folder contains the alignements of nuclear and mitochondrial data retained for the Bayesian analysis.
 
-## Scripts ##
+### Scripts #
 This folder contains a R script and necessary files to reproduce the analyses and figures.
 
-## Time-calibrated BEAST tree ##
+### Time-calibrated BEAST tree #
 This folder contains all files necessary to reproduce the Bayesian analysis.
 
-## Trees ##
-# Concatenated
+### Trees ####
+#### Concatenated
 This folder contains the Bayesian and Maximum-Likelihood (ML) trees (.tree) discussed in the study.
 
-# Loci
+#### Loci ####
 This folder contains ML trees for each nuclear locus and mitogenomic data (.tree).
