@@ -1,5 +1,5 @@
 # Asterophryinae-biogeography #
-This repository holds supplementary data of phylogenetic and biogeographic analyses included in a study on Asterophryinae (Anura: Microhylidae) biogeography on New Guinea.
+This repository holds supplementary data of "Expanded sampling of a megadiverse microhylid frog radiation reveals overlooked diversification in western and central New Guinea".
 
 ## Data ##
 
