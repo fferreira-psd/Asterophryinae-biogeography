@@ -1,0 +1,370 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=268;
+	taxlabels
+	ABTC101773_O._sp._Karius_3
+	ABTC101777_X._woxvoldi
+	ABTC101794_O._sp._Karius_2
+	ABTC101808_O._sp._Karius_1
+	ABTC101842_O._nicolasi
+	ABTC101875_O._sp._Juha2
+	ABTC101886_X._perexigua
+	ABTC101909_O._sp._Juha_1
+	ABTC101965_O._notata
+	ABTC104664_O._brachypus_2
+	ABTC109596_O._biroi_3
+	ABTC111879_Cophixalus_sp._Mt._Michael
+	ABTC111984_X._cf._ventrimaculata_1
+	ABTC112023_X._sp._Yapsiei
+	ABTC112064_X._cf._ventrimaculata_2
+	ABTC112120_Cophixalus_sp._Muruyane
+	ABTC112359_O._sp._Moran
+	ABTC112404_X._fuscigula
+	ABTC114712_O._sp._Frieda_1
+	ABTC114772_X._cf._arboricola
+	ABTC114776_O._sp._Frieda_3
+	ABTC114790_X._sp._Frieda_1
+	ABTC114872_O._sp._Frieda_6
+	ABTC114912_O._biroi_4
+	ABTC114993_O._hypsiops
+	ABTC114994_O._biroi_6
+	ABTC116774_H._sigridae
+	ABTC116863_O._curator
+	ABTC116955_O._graminus
+	ABTC126555_O._sp._Mananda_Ridge
+	ABTC128899_X._lacrimosa_7
+	ABTC133743_X._sp._Mt._Mimi
+	ABTC133763_O._sp._Mt._Mimi
+	ABTC136050_X._pohleorum
+	ABTC136051_X._lacrimosa
+	ABTC138858_X._lacrimosa_4
+	ABTC141497_O._sp._Purari_1
+	ABTC141597_O._sp._Purari_2
+	ABTC147930_O._pseudunicolor_3
+	ABTC148031_O._sp._Hindenburg
+	ABTC162224_O._sp._Iagifu_1
+	ABTC162225_O._nicolasi_3
+	ABTC42916_H._sp._Keki
+	ABTC50081_O._brachypus_3
+	ABTC90029_X._sp._Marina_Valen
+	ABTC90034_X._sp._Foya
+	ABTC90044_O._sp._North_Coast
+	ABTC90058_X._obesa
+	ABTC90064_O._unicolor_2
+	ABTC90065_O._sp._Marina_Valen
+	ABTC90074_O._sp._Cyclops
+	ABTC90130_X._waigeo
+	ABTC90189_X._salawati
+	ABTC90244_O._sp._Foya_2
+	ABTC90276_O._sp._Foya_bog_2
+	ABTC90284_O._sp._Foya_bog_1
+	ABTC90295_O._sp._Foya_bog_3
+	ABTC90328_O._sp._Foya_1
+	ABTC98304_H._rainerguentheri
+	ABTC98347_O._oviprotector_2
+	ABTC98428_O._pseudunicolor_2
+	ABTC98539_H._infulatus
+	ABTC98546_O._sp._Huon
+	ABTC98617_X._lacrimosa_2
+	ABTC98644_X._pohleorum_3
+	ABTC98740_X._ventrimaculata
+	ABTC98833_O._furu
+	ABTC99012_O._streiffeleri
+	Asterophrys_marani
+	Asterophrys_pullifer
+	Asterophrys_slateri
+	Asterophrys_turpicola
+	Austrochaperina_sp.
+	B291_P._sp._1
+	B486_P._swiftorum_2
+	BJE1142_O._frontifasciata_1
+	BPBM13155_Callulops_eremnosphax
+	BPBM15259_Barygenys_resima
+	BPBM15720_O._equus
+	BPBM15723_O._anser
+	BPBM15736_O._anser_2
+	BPBM16433_P._oyatabu
+	BPBM17047_H._sp._Misima
+	BPBM18002_O._sp._Milne_3
+	BPBM18003_O._sp._Milne_2
+	BPBM18121_O._picticrus
+	BPBM18450_H._sp._Mt._Shungol
+	BPBM18507_O._lemur
+	BPBM19236_Callulops_bicolor
+	BPBM2011_Callulops_doriae_2
+	BPBM20126_Barygenys_exsul
+	BPBM20128_Barygenys_exsul_2
+	BPBM20451_O._banshee
+	BPBM20502_O._meliades
+	BPBM20531_O._gagneorum_2
+	BPBM20542_O._gagneorum
+	BPBM22689_O._cameroni
+	BPBM22781_O._parkeri
+	BPBM22789_O._parkopanorum
+	BPBM22795_X._tumulus
+	BPBM25756_Barygenys_atra
+	BPBM25760_Barygenys_sp.
+	BPBM28153_Asterophrys_leucopus
+	BPBM31882_P._swiftorum
+	BPBM33780_X._cf._parkerorum
+	BPBM34678_O._cameroni_2
+	BPBM34688_O._biroi_2
+	BPBM34690_O._biroi
+	BPBM35836_Callulops_microtis
+	BPBM37122_Callulops_sp._1
+	BPBM38904_Barygenys_apodasta
+	BPBM38914_Barygenys_maculata
+	BPBM39509_O._phoebe
+	BPBM40142_O._brunnea
+	BPBM40146_O._sp._Milne_5
+	BPBM42014_O._penelopeia
+	BPBM48036_P._sp._2
+	BPBM7786_Callulops_sp._2
+	Barygenys_flavigularis
+	Barygenys_nana
+	CEBB45810_H._sp._PNG
+	Callulops_personatus
+	Callulops_robustus
+	Callulops_valvifer
+	Callulops_wilhelmanus
+	Callulops_wondiwoiensis
+	Cophixalus_balbus
+	Cophixalus_monosyllabus
+	Copiula_major
+	Copiula_oxyrhina
+	EAA303_Cophixalus_tetzlaffi
+	EAA358_H._maculatus
+	EAA364_X._sp._Lobo_1
+	EAA403_X._sp._Lobo_2
+	EAA459_Sphenophryne_cornuta
+	EAA463_O._sp._Urisa
+	EAA470_H._lengguru
+	EAA527_O._sp._Kumawa_2
+	FK15527_P._verrucosa
+	FK16913_P._titan
+	FN7336_H._wondiwoi
+	FN7467_O._cf._wapoga
+	FN7610_H._tetraphonus_Wondiwoi
+	FN7638_H._picoides
+	FN7719_O._sibilans
+	FN7744_O._atrigularis_2
+	FN7753_X._varia
+	FN7761_O._aspelinicola
+	FN7953_X._oxycephala
+	FN7984_X._sp._Yapen
+	Gastrophrynoides_immaculatus
+	H._atrifasciatus
+	H._cf._rufescens_2
+	H._monophonus
+	H._proekes_Adelberts
+	H._proekes_Torricelli
+	H._richardsi
+	H._sp._Binigun
+	H._sp._Cape_Nelson
+	H._sp._Milne_Bay
+	H._sp._Moro_Merauke
+	Kalophrynus_pleurostigma
+	LSUMZ93067_H._sp._Utai1
+	LSUMZ93072_H._sp._Utai2
+	LSUMZ94918_H._sp._Amau
+	MB508_Callulops_doriae
+	MZB.Amp.17493_O._riyantoi
+	MZB.Amp.26612_O._zimmeri
+	MZB.Amp.31745_O._jeffersoniana
+	MZB.Amp.33205_O._celebensis
+	MZBAmph.6918_H._sextus
+	MZB_Amp_16265_O._monticola
+	Mantophryne_lateralis
+	O._albomaculata
+	O._anamiatoi
+	O._anamiatoi_2
+	O._anamiatoi_3
+	O._atrigularis
+	O._aurora
+	O._brachypus
+	O._cf._unicolor_1
+	O._clamata
+	O._domino_sp._nov.
+	O._ezra
+	O._geislerorum
+	O._hypsiops_2
+	O._inornata
+	O._insulana
+	O._loriae
+	O._matawan
+	O._oviprotector
+	O._oviprotector_3
+	O._oviprotector_4
+	O._oviprotector_5
+	O._philosylleptoris
+	O._pseudasplenicola
+	O._pseudunicolor
+	O._pseudunicolor_4
+	O._roedeli
+	O._sp._BN
+	O._sp._Central
+	O._sp._Frieda_2
+	O._sp._Frieda_4
+	O._sp._Frieda_5
+	O._sp._Iagifu_2
+	O._sp._Kumawa_1
+	O._sp._Milne_1
+	O._sp._Milne_4
+	O._sp._Tualapa
+	O._unicolor
+	P._amauensis
+	PCMB14933_H._sp._Normanby
+	PCMB7002_H._sp._Fergusson
+	PCMB7559_H._sp._Mt._Simpson
+	PCMB8086_H._sp._Mt._Obree
+	PCMB8228_H._extimus
+	PCMB8816_H._sp._Central
+	PCMB8922_H._sp._Torricelli
+	PCMB9410_H._sp._Prince_Alexanders
+	PCMB9682_H._sp._Adelberts
+	PCMB9911_H._myopicus
+	PMO15_O._nicolasi_2
+	PNMCMNHH1366_O._anulata
+	SJR13117_O._cf._unicolor_2
+	SJR14650_O._flavomaculata_2
+	SJR14689_H._cf._rufescens_1
+	SJR14721_O._sp._Pnyang
+	SJR2003_O._sp._Bintuni_2
+	SJR7954_X._sp._Noau
+	SJR8060_H._sp._Bintuni_Rawara
+	SJR8098_H._sp._Mappi
+	SJR8125_O._sp._Mappi_2
+	SJR8127_O._sp._Mappi_1
+	SJR8129_X._sp._Mappi_1
+	SJR8132_X._sp._Mappi_2
+	SJR8138_O._unicolor_3
+	SJR8160_H._sp._Cyclops_1
+	SJR8178_H._sp._Cyclops_2
+	SJR8206_X._sp._Merauke_2
+	SJR8209_X._sp._Merauke_1
+	SJR8216_O._sp._Bintuni_1
+	SJR8218_X._sp._Bintuni_Rawara
+	TNHC51333_H._sp._Huon
+	TNHC58922_O._variabilis
+	TNHCGDC31221_H._sp._Morobe
+	TNHC_GDC18615_O._sp._GDC18615
+	TR039_X._sp._Tambrauw
+	TR061_H._sp._Tambrauw
+	X._arboricola
+	X._cf._oxycephala
+	X._lacrimosa_3
+	X._lacrimosa_5
+	X._lanthanites
+	X._parkerorum
+	X._pohleorum_2
+	X._sp._Birds_Neck
+	X._sp._Frieda_2
+	X._sp._North
+	X._sp._Rawara
+	X._sp._Urisa
+	X._tillacki
+	X._ventrimaculata_3
+	X._wiegankorum
+	ZMB62404_H._nigrinus
+	ZMB70185_Asterophrys_cf._marani
+	ZMB70319_H._sp._Yapen
+	ZMB70322_H._tetraphonus_Nabire
+	ZMB70535_Asterophrys_eurydactyla
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Kalophrynus_pleurostigma:0.346178,((((((((((((((P._amauensis:0.003908,B291_P._sp._1:0.016213)[&label="100/100"]:0.092137,(BPBM31882_P._swiftorum:0.026986,B486_P._swiftorum_2:0.011636)[&label="100/100"]:0.114957)[&label="99.3/100"]:0.056621,(FK16913_P._titan:0.099164,BPBM48036_P._sp._2:0.039297)[&label="96.9/96"]:0.040946)[&label="7/90"]:0.007795,BPBM16433_P._oyatabu:0.225093)[&label="98.1/100"]:0.076637,FK15527_P._verrucosa:0.143267)[&label="96.9/99"]:0.03589,((EAA303_Cophixalus_tetzlaffi:0.049037,Cophixalus_monosyllabus:0.053698)[&label="99.9/100"]:0.161603,Cophixalus_balbus:0.101692)[&label="98.2/99"]:0.101682)[&label="94/99"]:0.031279,ABTC112120_Cophixalus_sp._Muruyane:0.224756)[&label="99.8/96"]:0.025092,((BPBM18003_O._sp._Milne_2:0.131975,((((((((BPBM15720_O._equus:0.041138,BPBM18121_O._picticrus:0.034684)[&label="77.5/100"]:0.005065,BPBM20451_O._banshee:0.049922)[&label="94.6/100"]:0.006279,BPBM39509_O._phoebe:0.042633)[&label="100/100"]:0.036145,(O._insulana:0.048335,BPBM42014_O._penelopeia:0.073215)[&label="100/100"]:0.027701)[&label="100/100"]:0.029405,((BPBM40142_O._brunnea:0.022934,O._sp._Milne_1:0.02385)[&label="100/100"]:0.029583,O._matawan:0.047599)[&label="100/100"]:0.042785)[&label="98.2/100"]:0.009763,O._ezra:0.112125)[&label="95.4/100"]:0.010902,BPBM20502_O._meliades:0.12797)[&label="100/100"]:0.059643,(BPBM20531_O._gagneorum_2:0.094457,BPBM20542_O._gagneorum:0.071691)[&label="100/100"]:0.040616)[&label="100/100"]:0.054291)[&label="96.9/95"]:0.011175,(((((((((ABTC98347_O._oviprotector_2:0.029886,(O._oviprotector_3:0.00187,O._oviprotector_5:0.007472)[&label="100/100"]:0.027932)[&label="100/100"]:0.048213,(O._oviprotector:0.05836,O._oviprotector_4:0.066907)[&label="99.2/100"]:0.014586)[&label="100/100"]:0.065547,((ABTC101773_O._sp._Karius_3:0.023239,SJR14650_O._flavomaculata_2:0.024909)[&label="100/100"]:0.037326,O._sp._Iagifu_2:0.055603)[&label="100/100"]:0.038724)[&label="100/100"]:0.062858,((O._domino_sp._nov.:0.081826,ABTC101794_O._sp._Karius_2:0.060775)[&label="100/100"]:0.060107,((((ABTC109596_O._biroi_3:0.018946,BPBM34690_O._biroi:0.014459)[&label="46.4/100"]:0.009464,BPBM34688_O._biroi_2:0.017561)[&label="93.6/100"]:0.013988,(ABTC114994_O._biroi_6:0.010517,ABTC114912_O._biroi_4:0.010639)[&label="97.3/100"]:0.021994)[&label="95.4/100"]:0.021767,(ABTC90065_O._sp._Marina_Valen:0.068821,SJR2003_O._sp._Bintuni_2:0.016728)[&label="56/95"]:0.01102)[&label="100/100"]:0.120261)[&label="100/100"]:0.047335)[&label="100/99"]:0.055366,((((((((ABTC90074_O._sp._Cyclops:0.03399,((BPBM34678_O._cameroni_2:0.015869,BPBM22689_O._cameroni:0.038175)[&label="43.3/63"]:0.016944,FN7761_O._aspelinicola:0.023932)[&label="0/58"]:2.0E-6)[&label="85/81"]:0.012565,PNMCMNHH1366_O._anulata:0.064914)[&label="82.1/90"]:0.00728,O._pseudasplenicola:0.038808)[&label="100/100"]:0.028678,ABTC114712_O._sp._Frieda_1:0.054999)[&label="18.5/97"]:0.006264,(ABTC141497_O._sp._Purari_1:0.015389,SJR8127_O._sp._Mappi_1:0.054145)[&label="99.9/100"]:0.083549)[&label="99.9/100"]:0.012039,O._sp._Frieda_2:0.079196)[&label="99.7/100"]:0.009106,((O._sp._Tualapa:0.055001,ABTC90284_O._sp._Foya_bog_1:0.047835)[&label="85/100"]:0.007847,((ABTC99012_O._streiffeleri:0.022999,ABTC101965_O._notata:0.0324)[&label="99.9/100"]:0.006807,((ABTC116955_O._graminus:0.010508,O._albomaculata:0.009624)[&label="100/100"]:0.022566,(ABTC101875_O._sp._Juha2:0.011203,ABTC101909_O._sp._Juha_1:0.033499)[&label="99.9/100"]:0.040221)[&label="76.4/100"]:0.004245)[&label="100/100"]:0.028112)[&label="100/100"]:0.018718)[&label="100/100"]:0.086462,(((((ABTC114993_O._hypsiops:0.069782,((O._hypsiops_2:0.001869,BPBM22781_O._parkeri:0.004032)[&label="100/100"]:0.073114,(ABTC90044_O._sp._North_Coast:0.024653,ABTC90244_O._sp._Foya_2:0.017589)[&label="99.5/100"]:0.048899)[&label="100/100"]:0.022328)[&label="92.4/100"]:0.020787,EAA527_O._sp._Kumawa_2:0.058465)[&label="100/100"]:0.07652,(((O._roedeli:0.054262,SJR8216_O._sp._Bintuni_1:0.065017)[&label="98.4/100"]:0.031676,(EAA463_O._sp._Urisa:0.029405,SJR8125_O._sp._Mappi_2:0.088316)[&label="66.9/91"]:0.015999)[&label="96.2/100"]:0.056297,FN7719_O._sibilans:0.125544)[&label="97.5/100"]:0.047926)[&label="100/100"]:0.060939,BJE1142_O._frontifasciata_1:0.199299)[&label="99.9/100"]:0.023123,O._sp._BN:0.161968)[&label="100/100"]:0.05517)[&label="100/100"]:0.030262)[&label="97.8/99"]:0.007867,(((((ABTC101808_O._sp._Karius_1:0.031243,SJR14721_O._sp._Pnyang:0.033394)[&label="100/100"]:0.012138,((ABTC112359_O._sp._Moran:0.012114,(ABTC162224_O._sp._Iagifu_1:0.010075,TNHC_GDC18615_O._sp._GDC18615:0.011724)[&label="55.4/91"]:0.00134)[&label="100/98"]:0.011248,ABTC116863_O._curator:0.021496)[&label="100/99"]:0.018404)[&label="100/100"]:0.035287,(ABTC133763_O._sp._Mt._Mimi:0.064994,(O._anamiatoi_3:0.013652,(O._anamiatoi_2:1.73E-4,O._anamiatoi:9.27E-4)[&label="100/100"]:0.007967)[&label="100/100"]:0.060774)[&label="99.9/100"]:0.015779)[&label="100/100"]:0.070975,(((((BPBM22789_O._parkopanorum:0.003914,ABTC98833_O._furu:0.061079)[&label="53.2/91"]:0.012565,ABTC90295_O._sp._Foya_bog_3:0.034112)[&label="99.8/96"]:0.036644,O._sp._Frieda_4:0.091173)[&label="100/100"]:0.04041,((O._sp._Frieda_5:0.006707,ABTC114776_O._sp._Frieda_3:0.005721)[&label="86.2/100"]:0.018457,ABTC114872_O._sp._Frieda_6:0.050784)[&label="100/100"]:0.083281)[&label="100/100"]:0.034744,ABTC126555_O._sp._Mananda_Ridge:0.126884)[&label="98.8/100"]:0.024743)[&label="100/100"]:0.052553,((ABTC162225_O._nicolasi_3:0.063715,(PMO15_O._nicolasi_2:0.009005,ABTC101842_O._nicolasi:0.011133)[&label="100/100"]:0.037025)[&label="100/100"]:0.108072,((O._atrigularis:0.035816,FN7744_O._atrigularis_2:0.056485)[&label="100/100"]:0.108741,FN7467_O._cf._wapoga:0.080487)[&label="100/100"]:0.058208)[&label="100/100"]:0.097216)[&label="100/100"]:0.035758)[&label="11.1/61"]:0.006478,((O._aurora:0.205745,(((((ABTC90064_O._unicolor_2:0.028684,O._unicolor:0.032114)[&label="100/100"]:0.021716,((O._cf._unicolor_1:0.017904,SJR13117_O._cf._unicolor_2:0.020132)[&label="100/100"]:0.024933,SJR8138_O._unicolor_3:0.042665)[&label="100/100"]:0.009473)[&label="100/100"]:0.017205,(O._pseudunicolor:0.019767,ABTC98428_O._pseudunicolor_2:0.018258)[&label="99.8/100"]:0.035511)[&label="99.7/100"]:0.011167,(ABTC147930_O._pseudunicolor_3:0.023403,O._pseudunicolor_4:0.026443)[&label="100/100"]:0.032902)[&label="100/100"]:0.105472,((((ABTC98546_O._sp._Huon:0.017982,((ABTC104664_O._brachypus_2:0.012038,O._brachypus:0.015016)[&label="100/84"]:0.007198,((O._geislerorum:0.005322,ABTC148031_O._sp._Hindenburg:0.128925)[&label="75.1/76"]:0.0054,ABTC50081_O._brachypus_3:0.017385)[&label="72.3/69"]:0.004424)[&label="20.1/65"]:0.003965)[&label="100/99"]:0.081081,O._philosylleptoris:0.121635)[&label="100/99"]:0.03613,((BPBM15736_O._anser_2:0.020424,BPBM15723_O._anser:3.0E-6)[&label="72.6/46"]:0.027334,O._inornata:0.051257)[&label="100/100"]:0.06185)[&label="100/99"]:0.027733,((ABTC141597_O._sp._Purari_2:0.026796,O._loriae:0.021592)[&label="100/100"]:0.092844,((BPBM18002_O._sp._Milne_3:0.048436,(O._sp._Central:0.03343,BPBM18507_O._lemur:0.045267)[&label="100/100"]:0.019623)[&label="98.9/100"]:0.007003,(O._sp._Milne_4:0.042491,BPBM40146_O._sp._Milne_5:0.031099)[&label="100/100"]:0.016662)[&label="100/100"]:0.050454)[&label="100/100"]:0.02977)[&label="100/99"]:0.044756)[&label="100/99"]:0.035981)[&label="100/99"]:0.054699,(((O._clamata:0.028091,O._sp._Kumawa_1:0.036134)[&label="94.8/100"]:0.041323,ABTC90328_O._sp._Foya_1:0.030094)[&label="99.4/100"]:0.079777,ABTC90276_O._sp._Foya_bog_2:0.110272)[&label="96.3/78"]:0.021664)[&label="49.1/66"]:0.00458)[&label="97.3/98"]:0.032738,(MZB.Amp.17493_O._riyantoi:0.113394,((MZB.Amp.26612_O._zimmeri:0.109181,MZB.Amp.33205_O._celebensis:0.090013)[&label="82.7/100"]:0.028456,MZB.Amp.31745_O._jeffersoniana:0.210232)[&label="2.7/78"]:0.009674)[&label="99.8/100"]:0.080491)[&label="62.6/95"]:0.012365,(MZB_Amp_16265_O._monticola:0.139732,TNHC58922_O._variabilis:0.16317)[&label="93.9/98"]:0.050122)[&label="91.3/90"]:0.014018)[&label="95.6/93"]:0.007804)[&label="57.4/86"]:0.004451,ABTC111879_Cophixalus_sp._Mt._Michael:0.168283)[&label="87.9/87"]:0.007035,(Copiula_major:0.082079,Copiula_oxyrhina:0.095681)[&label="99.3/100"]:0.109806)[&label="86.4/88"]:0.004535,(((((BPBM20128_Barygenys_exsul_2:0.095213,BPBM20126_Barygenys_exsul:0.108587)[&label="90.6/100"]:0.037049,BPBM38904_Barygenys_apodasta:0.155819)[&label="97.4/100"]:0.083541,Barygenys_nana:0.20031)[&label="45.6/94"]:0.020888,(Barygenys_flavigularis:0.125718,(BPBM15259_Barygenys_resima:0.059759,(BPBM38914_Barygenys_maculata:0.053408,BPBM25756_Barygenys_atra:0.110128)[&label="22/88"]:0.016308)[&label="95/98"]:0.05291)[&label="68.2/95"]:0.013132)[&label="99.6/100"]:0.047505,BPBM25760_Barygenys_sp.:0.131947)[&label="91.8/88"]:0.016986)[&label="56/72"]:0.005641,Austrochaperina_sp.:0.219011)[&label="93.3/77"]:0.008966,(((((((((((ABTC90029_X._sp._Marina_Valen:0.013054,FN7984_X._sp._Yapen:0.017276)[&label="82.2/100"]:0.00564,SJR7954_X._sp._Noau:0.028221)[&label="92.9/100"]:0.009545,X._sp._North:0.022336)[&label="100/100"]:0.024288,X._cf._oxycephala:0.050909)[&label="100/100"]:0.036209,(X._arboricola:0.023214,(ABTC114772_X._cf._arboricola:0.008302,FN7753_X._varia:0.012005)[&label="45.8/95"]:0.002281)[&label="100/100"]:0.061767)[&label="100/100"]:0.033674,((((ABTC90130_X._waigeo:0.057968,X._sp._Rawara:0.050848)[&label="96.4/100"]:0.007453,ABTC90189_X._salawati:0.049461)[&label="100/100"]:0.011516,(EAA364_X._sp._Lobo_1:0.010068,X._sp._Birds_Neck:0.010259)[&label="100/100"]:0.050424)[&label="100/100"]:0.030128,((EAA403_X._sp._Lobo_2:0.009787,X._sp._Urisa:0.011945)[&label="100/100"]:0.024107,FN7953_X._oxycephala:0.04113)[&label="100/100"]:0.060447)[&label="100/100"]:0.044597)[&label="100/100"]:0.072183,(SJR8218_X._sp._Bintuni_Rawara:0.146162,TR039_X._sp._Tambrauw:0.184427)[&label="100/100"]:0.091073)[&label="100/100"]:0.03665,(((((ABTC90034_X._sp._Foya:0.10916,X._lanthanites:0.089429)[&label="100/100"]:0.03193,ABTC101777_X._woxvoldi:0.115305)[&label="31.4/99"]:0.006979,X._sp._Frieda_2:0.163504)[&label="100/100"]:0.031083,(X._tillacki:0.014331,SJR8206_X._sp._Merauke_2:0.064336)[&label="100/100"]:0.162261)[&label="40.1/97"]:0.008726,(((((ABTC98617_X._lacrimosa_2:0.006249,ABTC136051_X._lacrimosa:0.012289)[&label="98.9/100"]:0.032235,(ABTC138858_X._lacrimosa_4:0.036211,X._lacrimosa_3:0.037286)[&label="100/100"]:0.011632)[&label="100/100"]:0.025169,(ABTC128899_X._lacrimosa_7:0.021657,X._lacrimosa_5:0.019848)[&label="100/100"]:0.036852)[&label="100/100"]:0.077304,(((((ABTC111984_X._cf._ventrimaculata_1:0.074356,(BPBM22795_X._tumulus:0.050836,ABTC98740_X._ventrimaculata:0.08434)[&label="56.7/98"]:0.01757)[&label="91.8/100"]:0.009822,(ABTC112064_X._cf._ventrimaculata_2:0.043373,X._ventrimaculata_3:0.037105)[&label="100/100"]:0.02331)[&label="100/100"]:0.036132,(ABTC112023_X._sp._Yapsiei:0.024194,ABTC114790_X._sp._Frieda_1:0.029161)[&label="100/100"]:0.079785)[&label="100/100"]:0.029063,X._wiegankorum:0.133474)[&label="26.8/91"]:0.005695,(ABTC112404_X._fuscigula:0.088636,((ABTC98644_X._pohleorum_3:0.032027,(X._pohleorum_2:0.020535,ABTC136050_X._pohleorum:3.0E-6)[&label="54.9/99"]:0.003367)[&label="98.6/99"]:0.069875,ABTC101886_X._perexigua:0.131052)[&label="25.4/74"]:0.009467)[&label="100/94"]:0.023686)[&label="96.1/99"]:0.0079)[&label="89.7/100"]:0.017767,((SJR8129_X._sp._Mappi_1:0.043443,SJR8132_X._sp._Mappi_2:0.063505)[&label="93.9/100"]:0.051297,SJR8209_X._sp._Merauke_1:0.067216)[&label="99.6/100"]:0.07404)[&label="92.1/98"]:0.015133)[&label="100/100"]:0.089983)[&label="100/100"]:0.055645,(ABTC90058_X._obesa:0.14172,((BPBM33780_X._cf._parkerorum:0.046407,X._parkerorum:0.040663)[&label="92.9/99"]:0.022469,ABTC133743_X._sp._Mt._Mimi:0.025095)[&label="100/100"]:0.19949)[&label="99.7/99"]:0.030754)[&label="90.5/99"]:0.015829,(((Asterophrys_marani:0.190601,(((Asterophrys_slateri:0.07901,BPBM28153_Asterophrys_leucopus:0.084849)[&label="90.8/100"]:0.027418,ZMB70185_Asterophrys_cf._marani:0.109414)[&label="64/99"]:0.01174,Asterophrys_turpicola:0.095739)[&label="99.6/100"]:0.055624)[&label="62/99"]:0.01094,ZMB70535_Asterophrys_eurydactyla:0.127693)[&label="79.7/100"]:0.024689,Asterophrys_pullifer:0.14288)[&label="95.3/99"]:0.027054)[&label="100/100"]:0.051783,(((((((((((ABTC116774_H._sigridae:0.048126,SJR8098_H._sp._Mappi:0.016114)[&label="61.3/70"]:0.004888,(((H._cf._rufescens_2:0.008457,CEBB45810_H._sp._PNG:0.007668)[&label="86.8/100"]:0.012455,ABTC42916_H._sp._Keki:0.018429)[&label="98/100"]:0.013274,(SJR14689_H._cf._rufescens_1:0.03438,H._sp._Moro_Merauke:0.075863)[&label="100/100"]:0.010563)[&label="72.9/70"]:0.005543)[&label="78.7/98"]:0.006887,FN7336_H._wondiwoi:0.037569)[&label="90.9/98"]:0.013293,(((EAA470_H._lengguru:0.015093,H._monophonus:0.0174)[&label="99.2/100"]:0.022195,SJR8060_H._sp._Bintuni_Rawara:0.047684)[&label="81.6/98"]:0.010814,TR061_H._sp._Tambrauw:0.044817)[&label="91.1/98"]:0.007653)[&label="100/100"]:0.03862,H._richardsi:0.090118)[&label="39.9/62"]:0.004695,PCMB8816_H._sp._Central:0.091894)[&label="92/100"]:0.015775,(((PCMB9682_H._sp._Adelberts:0.061561,ABTC98304_H._rainerguentheri:0.065667)[&label="100/100"]:0.045623,FN7638_H._picoides:0.095363)[&label="23.7/92"]:0.007312,((((((((H._proekes_Torricelli:0.018176,H._proekes_Adelberts:0.015814)[&label="95.2/100"]:0.027482,TNHC51333_H._sp._Huon:0.066264)[&label="89/100"]:0.024947,SJR8178_H._sp._Cyclops_2:0.058149)[&label="91.3/100"]:0.028462,SJR8160_H._sp._Cyclops_1:0.057499)[&label="72.4/74"]:0.01349,PCMB9410_H._sp._Prince_Alexanders:0.068356)[&label="95.5/73"]:0.016514,((PCMB8922_H._sp._Torricelli:0.060275,(FN7610_H._tetraphonus_Wondiwoi:0.013589,ZMB70322_H._tetraphonus_Nabire:0.021255)[&label="100/100"]:0.050677)[&label="72.8/71"]:0.00441,(LSUMZ93067_H._sp._Utai1:0.036254,ZMB70319_H._sp._Yapen:0.050383)[&label="99.8/100"]:0.057461)[&label="79.3/66"]:0.006207)[&label="0/62"]:2.0E-6,MZBAmph.6918_H._sextus:0.10066)[&label="92/97"]:0.02364,EAA358_H._maculatus:0.098789)[&label="93.8/91"]:0.010293)[&label="100/100"]:0.017794)[&label="100/100"]:0.023338,(((((H._sp._Binigun:0.007059,PCMB7559_H._sp._Mt._Simpson:0.01401)[&label="99.6/100"]:0.031107,PCMB8086_H._sp._Mt._Obree:0.028281)[&label="99.2/100"]:0.015396,(((H._sp._Cape_Nelson:0.037988,H._sp._Milne_Bay:0.059183)[&label="100/100"]:0.013679,(PCMB7002_H._sp._Fergusson:0.029834,PCMB14933_H._sp._Normanby:0.027267)[&label="96/91"]:0.02539)[&label="100/100"]:0.010011,(TNHCGDC31221_H._sp._Morobe:0.029952,(BPBM18450_H._sp._Mt._Shungol:0.040372,LSUMZ94918_H._sp._Amau:0.024668)[&label="30/100"]:0.008964)[&label="98.9/100"]:0.020937)[&label="100/100"]:0.017866)[&label="100/100"]:0.017739,(PCMB8228_H._extimus:0.048249,BPBM17047_H._sp._Misima:0.035968)[&label="99.9/100"]:0.030582)[&label="100/100"]:0.023869,PCMB9911_H._myopicus:0.073147)[&label="100/100"]:0.043548)[&label="99.7/100"]:0.012143,((H._atrifasciatus:0.097044,ABTC98539_H._infulatus:0.140933)[&label="71.4/98"]:0.010526,(ZMB62404_H._nigrinus:0.08157,LSUMZ93072_H._sp._Utai2:0.091144)[&label="89.6/100"]:0.069875)[&label="99.1/100"]:0.023422)[&label="100/100"]:0.014685,Mantophryne_lateralis:0.143392)[&label="100/100"]:0.022821,(Callulops_wilhelmanus:0.094825,((((Callulops_valvifer:0.01289,BPBM13155_Callulops_eremnosphax:0.053345)[&label="96.6/100"]:0.020437,BPBM35836_Callulops_microtis:0.046329)[&label="84.7/99"]:0.014384,(Callulops_personatus:0.033545,Callulops_wondiwoiensis:0.042098)[&label="89/100"]:0.017493)[&label="99.5/100"]:0.031051,((Callulops_robustus:0.04072,(((BPBM2011_Callulops_doriae_2:0.003679,MB508_Callulops_doriae:0.002444)[&label="99.3/100"]:0.040338,BPBM37122_Callulops_sp._1:0.058187)[&label="78.9/100"]:0.016272,BPBM19236_Callulops_bicolor:0.036368)[&label="85.8/100"]:0.014914)[&label="99.1/100"]:0.037863,BPBM7786_Callulops_sp._2:0.098578)[&label="1.8/90"]:0.00215)[&label="95.5/100"]:0.017451)[&label="100/100"]:0.038236)[&label="100/100"]:0.01924)[&label="98.5/100"]:0.00885)[&label="96.8/84"]:0.020861,EAA459_Sphenophryne_cornuta:0.178224)[&label="99.3/100"]:0.073034,Gastrophrynoides_immaculatus:0.365128);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=447;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=9;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
