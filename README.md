@@ -3,7 +3,7 @@ This repository holds supplementary data of phylogenetic and biogeographic analy
 
 ## Data ##
 
-### Alignements #
+### Alignements [will be released upon journal's acceptance]
 #### All specimens
 This folder contains alignements (.fasta) for each nuclear locus and the 16S rRNA fragment used for the species delimitation.
 #### Per MOTU
